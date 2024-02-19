@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'enerdapp1',
+  displayName: 'bob',
   preset: './jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: './coverage/enerdapp1',
+  coverageDirectory: './coverage/bob',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

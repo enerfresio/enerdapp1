@@ -1,8 +1,5 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "affected": {
-    "defaultBase": "master"
-  },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
@@ -46,6 +43,5 @@
       "unitTestRunner": "jest"
     }
   },
-  "defaultProject": "enerdapp1",
-  "nxCloudAccessToken": "MDg5ZjI1M2UtNjhiZi00MGI0LTg3ODktY2E3MGI3MGE5YTk1fHJlYWQtd3JpdGU="
+  "defaultProject": "bob"
 }
