@@ -1,14 +1,19 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { HdWalletMultiButtonComponent } from '@heavy-duty/wallet-adapter-material';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, HdWalletMultiButtonComponent],
   selector: 'enerdapp1-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: `
+    <header class="py-8">
+      <h1 class="text-5xl text-center mb-4">Hola, soy Ener.<h1>
+  
+      <div class="flex justify-center">
+       <hd-wallet-multi-button></hd-wallet-multi-button>
+      <div>
+   <header>
+  `,
 })
-export class AppComponent {
-  title = 'enerdapp1';
-}
+export class AppComponent {}
